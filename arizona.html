@@ -27,93 +27,73 @@
         <p>Having lived in Arizona, I have travelled around many parts of the state. Some of these cities include
             Peoria (my hometown), Phoenix, Tempe, Sedona, Flagstaff, Winslow, Prescott, Scottsdale, Surprise, and Tucson. 
             Since I have travelled to so many areas, I figured I would just share some of my favorite places and memories.
-        <hr>
+            <br>
+            Note: This is one of my last entries and not completely finished - will update with more info and insight.
         </p>
+        <hr>
         </section>
         <section class="place1">
-            <p>
             <h2>Peoria</h2> 
             <div class="placeside">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-                <img class="sidepics" src="pics/" width="180" height="auto">
+                <img class="sidepics" src="AZSunsetW.jpeg" width="180" alt="AZ Sunset">
+                <img class="sidepics" src="AZHozier.jpeg" width="180" alt="Hozier concert">
+                <img class="sidepics" src="AZHike.jpg" width="180" alt="Nana, I, and some friends hiking">
+                <img class="sidepics" src="AZZane.jpeg" width="180" alt="Zane at a lookout">
             </div>
-            This is my hometown and where I have lived for basically my entire life.
-            <h3>Memories around Peoria</h3>
-                &nbsp;
-            about Peoria.
+            <p>
+            This is my hometown and where I have lived for basically my entire life. 
+            I went to school here and grew up dancing at a local studio.
+            It's also close to a lot of fun things, including Lake Pleasant, where we jet ski a lot and Hurrican Harbor, a waterpark I used to lifeguard at.
             </p>
         </section>
-        <div class="placebottom">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-        </div>
         <section class="place2">
-            <p>
             <h2>Phoenix and Tempe</h2>
-            <div class="placeside">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-            </div>
+            <p>
             I went to college at ASU in Tempe, and I quite enjoyed my time there. 
-            Phoenix is also in between Tempe and Peoria, so I have been there many times, especially since it is our capitol and has many events and fun things to do there.
-            <h3>Tempe</h3>
-                &nbsp;
-            fun memories
-            <h3>Phoenix</h3>
-                &nbsp;
-            so fun.
+            Phoenix is also in between Tempe and Peoria, so I have been there many times, especially since it is the city center and has many events and fun things to do there.
+            I love going to Phoenix to see ballets, Suns games, Diamondbacks games, and concerts.
             </p>
         </section>
-        <div class="placebottom">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-        </div>
         <section class="place3">
-            <p>
             <h2>Flagstaff and Prescott</h2>
-            <div class="placeside">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-            </div>
-            I have been to Washington 3 times I believe, but may have forgotten some trips from when I was younger.
-                <h3>Flagstaff</h3>
-                &nbsp;
-                fun mems
-                <h3>Prescott</h3>
-                &nbsp;
-                more fun mems
-            </p>
-        </section>
-        <div class="placebottom">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-        </div>
-        <section class="place4">
             <p>
+                These are two of the places I have been most in Arizona for trips. 
+                This is mostly because my grandma had a second cabin in Flagstaff, which she later sold and bought one in Prescott.
+                Growing up, we would go sledding in Flagstaff a lot or just play in the snow.
+                Prescott was a fun place, where we would hang out in the game rooms, roast marshmallows, go hiking, or kayaking. 
+                I have also been manuy times with friends and even went as a coach for my church's summer camp.
+            </p>
+        </section>
+        <section class="place4">
             <h2>Sedona</h2>
-            <div class="placeside">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-                <img class="sidepics" src="pics/" width="180" height="auto">
-            </div>
+            <p>
             I have been to Sedona so many times to hike and for day trips, just because it is such a beautiful place. 
-                <h3>All around Sedona</h3>
-                &nbsp;
-            Where I've been and fun mems
+            I really love visiting the town, going to slide rock, and hiking. 
+            One of my favorite hiking spots is Forks Trail, which has 13 creeks.
+            I would also recommend Bell Trail, which has cliff jumping, and Fossil Creek, which has a waterfall and good spots along a creek for hammocking.
             </p>
         </section>
         <div class="placebottom">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
-            <img src="pics/">
+            <img src="AZCamp.jpeg" alt="Summer camp">
+            <img src="AZHoziest.jpeg" alt="Hozier concert">
+            <img src="AZMe.jpeg" alt="Me at a lookout">
+            <img src="AZTuscon.JPG" alt="My friends and I in Tuscon">
+            <img src="AZOverlook.JPG" alt="Overlook">
         </div>
+        <br>
+        <br>
+        <hr>
+        <h2>Where Arizona is:</h2>
+        <div id="googlemap" style="width:100%;height:400px;"></div>
+        <script>
+            function myMap() {
+                var mapProp= {
+                    center:new google.maps.LatLng(34.0489, -111.0937),
+                    zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googlemap"),mapProp);}
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
     </main>
     <footer>
         Morgan Cage | <a href="mailto:morgancage4@icloud.com">morgancage4@icloud.com</a> <br>
